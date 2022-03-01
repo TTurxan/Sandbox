@@ -1,0 +1,139 @@
+#explore
+    margin-top: 60px
+    .box
+        display: flex
+        align-items: center
+    .textbox
+        width: 50%
+        padding-right: 70px
+    .imgbox
+        width: 50%
+    h1
+        color: #343f52
+        font-size: 3.5rem
+        font-weight: 600
+        margin-bottom: 20px
+    p
+        font-size: 31px
+        color: #60697b
+        margin-bottom: 15px
+    .imgbox
+        margin-left: 65px
+    .buttons
+        padding-top: 20px
+        display: flex
+        position: absolute
+        button
+            width: 140px
+            border-radius: 40px
+            height: 57px
+            -webkit-transition: .3s
+            transition: .3s
+            font-weight: 600
+            letter-spacing: 1px
+            font-size: 16px
+            margin-right: 15px
+        .explore
+            button
+
+                &:hover
+                    margin-top: -3px
+        .free
+            button
+                background-color: white
+                border: 1px solid #3f78e0
+                color: #3f78e0
+                transition: .3s
+                &:hover
+                    color: white
+                    background-color: #3f78e0
+                    margin-top: -3px
+                    a
+                        color: #3f78e0
+@media screen and (max-width: 576px)
+    #explore
+        margin-top: 20px
+        .box
+            display: flex
+            flex-direction: column-reverse
+            text-align: center
+            p
+                margin-right: 10px
+            h1
+                color: #343f52
+                font-weight: 600
+                font-size: 35px
+                margin: 15px auto
+                letter-spacing: 1px
+            .buttons
+                width: 97%
+                display: flex
+                justify-content: center
+        .textbox
+            width: 100%
+            padding: 0
+        .imgbox
+            width: 100%
+            margin: 0px 0px 30px 0px
+
+@media only screen and (min-width: 576px) and (max-width: 768px)
+    #explore
+        margin: 20px 50px 0px 50px
+        .imgbox
+            width: 85%
+            margin-bottom: 50px
+            margin-left: 0px
+        .box
+            display: flex
+            flex-direction: column-reverse
+            text-align: center
+        .textbox
+            width: 100%
+            padding: 0
+        h1
+            font-size: 35px
+        p
+            font-size: 30px
+        .buttons
+            display: flex
+            width: 80%
+            justify-content: center
+@media only screen and (min-width: 768px) and (max-width: 992px)
+    #explore
+        margin: 20px 100px 30px 100px
+        .imgbox
+            margin-left: 0px
+            margin-bottom: 50px
+            width: 70%
+        .box
+            display: flex
+            flex-direction: column-reverse
+            text-align: center
+        .textbox
+            width: 100%
+            padding: 0
+        h1
+            font-size: 46px
+        p
+            font-size: 33px
+        .buttons
+            width: 73%
+            margin: 0 auto
+            justify-content: center
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+    #explore,header
+        .imgbox
+            width: 50%
+            margin-left: 0px
+            margin-bottom: 50px
+            margin-top: 35px
+            float: right
+        .textbox
+            width: 50%
+            padding: 0
+        .box
+            display: flex
+            flex-direction: row
+        p
+            font-size: 33px
+            line-height: 1.1

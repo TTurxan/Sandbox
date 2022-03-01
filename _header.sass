@@ -1,0 +1,66 @@
+header
+    background-color: #3b82e2
+    position: sticky
+    top: 0
+    z-index: 9
+    padding: 20px 0px 20px 0px
+    i
+        font-size: 15px
+        color: white
+        margin-right: 5px
+    span
+        font-size: 15px
+        color: white
+        font-weight: 600
+    .contact
+        font-size: 12px
+        display: flex
+        margin: 0 20px
+        font-family: 'Hammersmith One', sans-serif
+        display: flex
+        justify-content: end
+        display: flex
+        justify-content: end
+        font-size: 11px
+        .number
+            display: flex
+            margin: 0 10px
+            .icon
+                margin: 0 5px
+                color: white
+            h6
+                font-size: 15px
+                color: white
+                font-weight: 600
+        .email
+            display: flex
+            .icon
+                margin: 0 5px
+                color: white
+            .emailbox
+                display: inline-block
+                position: relative
+                color: white
+            .emailbox:after
+                content: ''
+                position: absolute
+                width: 100%
+                transform: scaleX(0)
+                height: 1px
+                bottom: 0
+                left: 0
+                background-color: white
+                transform-origin: bottom right
+                transition: transform 0.25s ease-out
+            .emailbox:hover:after
+                transform: scaleX(1)
+                transform-origin: bottom left
+@media screen and (max-width: 576px)
+    header
+        display: none
+@media only screen and (min-width: 576px) and (max-width: 768px)
+    header
+        display: none
+@media only screen and (min-width: 768px) and (max-width: 992px)
+    header
+        display: none

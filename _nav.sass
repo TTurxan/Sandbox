@@ -1,0 +1,87 @@
+#nav
+    margin-top: 0px
+    img
+        width: 50%
+    .navbar
+        li:hover > ul
+            transition: .5s
+        ul
+            transition-delay: 0.1s
+            li:hover > ul
+                opacity: 1
+                visibility: visible
+            a
+                color: #343f52
+                font-weight: 600
+            ul
+                position: absolute
+                display: flex
+                flex-direction: column
+                top: 30px
+                background-color: white
+                padding: 10px
+                opacity: 0
+                visibility: hidden
+                box-shadow: 0px 0px 1px 0.4px
+                .ul1
+                    left: 175px
+                    top: 15px
+                .ul2
+                    left: 175px
+                    top: 60px
+                .ul3
+                    left: 175px
+                    top: 90px
+                .ul4
+                    left: 180px
+                    top: 165px
+                .ul5
+                    left: 175px
+                    top: 130px
+                li
+                    width: 150px
+                    padding: 10px
+                    margin-right: 0
+                    a
+                        i
+                            float: right
+            li
+                display: inline-block
+                margin-right: 20px
+                i
+                    padding-left: 5px
+    .translate
+        float: right
+        padding-right: 20px
+        display: flex
+        li:hover > ul
+            opacity: 1
+            visibility: visible
+        ul
+            position: absolute
+            display: flex
+            flex-direction: column
+            background-color: white
+            box-shadow: 0px 0px 1px 0.4px
+            padding: 10px
+            top: 104px
+            right: 220px
+            opacity: 0
+            visibility: visible
+            transition: .3s
+        li
+            padding-top: 8px
+            list-style-type: none
+            margin-right: 10px
+            display: inline-block
+            ul
+                li
+                    margin-right: 0
+        a
+            button
+                width: 85px
+                height: 35px
+                border-radius: 15px
+                &:hover
+                    margin-top: -3px
+                    transition: .5s
